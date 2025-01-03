@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MotoPower</string>
+    <string name="thumbnailapk">Moto Power</string>
+    <string name="judul"> HAI PETROLHEAD\nAYO KALKULASIKAN MESINMU!</string>
+    <string name="hitungccmotor">Hitung CC motor</string>
+    <string name="hitungkompresimotor">Hitung Kompresi \n Motor</string>
+    <string name="lubangventuri">Tentukan Lubang \n Venturi Motor</string>
+    <string name="informasi">Informasi</string>
+</resources>

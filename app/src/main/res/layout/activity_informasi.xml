@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#09A1FF"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:elevation="4dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFORMASI"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung CC pada motor adalah menghitung kapasitas silinder mesin motor dalam satuan centimeter kubik (CC). CC merupakan ukuran yang penting dalam klasifikasi mesin motor dan berhubungan dengan tenaga dan torsi yang dihasilkan. Mengapa Perlu Menghitung CC Motor? Menghitung CC motor adalah langkah penting bagi setiap pengendara yang ingin memahami performa kendaraannya. Dengan mengetahui ukuran CC, Anda dapat membuat keputusan yang tepat saat melakukan modifikasi untuk meningkatkan tenaga motor."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:justificationMode="inter_word" />
+    </LinearLayout>
+</LinearLayout>
