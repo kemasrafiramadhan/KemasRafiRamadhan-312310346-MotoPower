@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Mykemasskibidi"
         tools:targetApi="31">
         <activity
+            android:name=".LubangventurimotorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HitungkompresimotorActivity"
+            android:exported="false" />
+        <activity
             android:name=".InformasiActivity"
             android:exported="false" />
         <activity

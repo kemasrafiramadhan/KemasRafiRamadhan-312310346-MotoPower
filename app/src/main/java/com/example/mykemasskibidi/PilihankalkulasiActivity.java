@@ -44,5 +44,21 @@ public class PilihankalkulasiActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        LinearLayout hitung = findViewById(R.id.hitungkompresi);
+        hitung.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PilihankalkulasiActivity.this, HitungkompresimotorActivity.class);
+                startActivity(intent);
+            }
+        });
+        LinearLayout venturi = findViewById(R.id.venturi);
+        venturi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PilihankalkulasiActivity.this, LubangventurimotorActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
